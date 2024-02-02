@@ -1,0 +1,26 @@
+:root {
+  --fb-primary-color: #1877f2;
+  --fb-secondary-color: #42b72a;
+  --fb-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  --fb-border-color: 1px solid #dadde1;
+  --fb-bg-color: #f0f2f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+input:focus {
+  outline: none;
+}
