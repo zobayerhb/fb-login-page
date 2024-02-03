@@ -1,3 +1,4 @@
+// AUTH PAGE
 .auth-page {
   display: flex;
   justify-content: center;
@@ -104,6 +105,30 @@
           }
         }
       }
+    }
+  }
+}
+
+// MODAL
+.modal-form-signUp {
+  padding: 16px;
+  .form-signUp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    input {
+      padding: 10px;
+      font-size: 14px;
+      color: #8d949e;
+      background: #f5f6f7;
+      width: 100%;
+      border: 1px solid #dadde1;
+      border-radius: 6px;
+    }
+    .v-input {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
   }
 }
