@@ -130,5 +130,85 @@
       align-items: center;
       gap: 10px;
     }
+
+    // FORM EXTRA
+    .form-extra {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .form-extra-container {
+        label {
+          span {
+            font-size: 12px;
+            color: #1c1e21;
+            svg {
+              cursor: pointer;
+            }
+          }
+          .form-opt {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            select {
+              flex: 1;
+              padding: 7px 8px;
+              font-size: 15px;
+              width: 100%;
+              border: var(--fb-border-color);
+              border-radius: 6px;
+            }
+          }
+
+          // FORM EXTRA INPUT
+          .form-extra-input {
+            display: flex;
+            gap: 10px;
+            label {
+              span {
+                color: #1c1e21;
+                font-size: 15px;
+              }
+              display: flex;
+              justify-content: space-between;
+              border: var(--fb-border-color);
+              width: 100%;
+              padding: 7px 8px;
+              border-radius: 6px;
+
+              input[type="radio"] {
+                width: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .form-text {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      p {
+        font-size: 12px;
+        a {
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    button.form-sign-up-button {
+      color: #fff;
+      border: none;
+      background: #00a400;
+      font-weight: 600;
+      font-size: 18px;
+      padding: 4px 0;
+      width: 200px;
+      margin: 0 auto;
+      border-radius: 6px;
+      cursor: pointer;
+    }
   }
 }

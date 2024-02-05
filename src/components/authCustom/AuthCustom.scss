@@ -1,0 +1,17 @@
+.custom-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+  select {
+    margin: 14px 0 3px 0;
+    padding: 7px 8px;
+    font-size: 15px;
+    width: 100%;
+    border: var(--fb-border-color);
+    border-radius: 6px;
+  }
+  p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}

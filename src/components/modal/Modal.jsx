@@ -15,7 +15,7 @@ const Modal = ({ children, hide }) => {
               <RxCross2 />
             </button>
           </div>
-          <div className="modal-body">{children}</div>
+          <div className="modal-body">{children}</div>~
         </div>
       </div>
     </>
